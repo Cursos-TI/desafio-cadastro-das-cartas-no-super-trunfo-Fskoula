@@ -4,7 +4,7 @@
 // Aluna: Fernanda Cristina Skoula
 
 int main() {
-    // funções que receberam os valores passados pelo usuário
+    //variaveis que receberam os valores passados pelo usuário
     char cidade_1[20];
     char cidade_2[20];
     char codigo_1[20];
