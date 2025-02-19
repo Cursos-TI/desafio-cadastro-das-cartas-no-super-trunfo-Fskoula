@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 // Desafio Super Trunfo - NOVATO
-//Aluna: Fernanda Cristina Skoula
+// Aluna: Fernanda Cristina Skoula
 
 int main() {
-
+    // funções que receberam os valores passados pelo usuário
     char cidade_1[20];
     char cidade_2[20];
     char codigo_1[20];
@@ -32,7 +32,7 @@ int main() {
     printf("Digite o estado da primeira carta:\n");
     scanf(" %c", &estado_1);
     printf("Estado: %c\n\n", estado_1);
-   
+
     printf("Digite a população da primeira carta:\n");
     scanf("%d", &populacao_1);
     printf("População: %d\n\n", populacao_1);
@@ -78,6 +78,7 @@ int main() {
     scanf("%d", &nPontosTuristicos_2);
     printf("Número de Pontos Turísticos: %d\n\n", nPontosTuristicos_2);
 
+    // Dados das cartas
     printf("********************************************************\n");
     printf("DADOS DA CARTA 1:\n");
     printf("Cidade: %s\n\n", cidade_1);
@@ -91,7 +92,7 @@ int main() {
     printf("********************************************************\n");
     printf("DADOS DA CARTA 2:\n");
     printf("Cidade: %s\n\n", cidade_2);
-    printf("Código da carta: %s\n\n", cBlumenauodigo_2);
+    printf("Código da carta: %s\n\n", codigo_2);
     printf("Estado: %c\n\n", estado_2);
     printf("População: %.2d Habitantes\n\n", populacao_2);
     printf("Área: %.2f km²\n\n", area_2);
